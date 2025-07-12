@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IndSee - Create. Share. Earn.</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎬 IndSee</h1>
+    <p class="tagline">Create • Share • Earn • Connect</p>
+  </header>
+
+  <main>
+    <section class="reels">
+      <h2>🎥 Reels Feed</h2>
+      <div id="reelContainer">
+        <p>Sample Reels will appear here.</p>
+      </div>
+      <input type="file" id="uploadVideo" accept="video/*" />
+      <button onclick="uploadReel()">Upload Reel</button>
+    </section>
+
+    <section class="story">
+      <h2>📸 Stories</h2>
+      <p>Add your story from mobile app</p>
+    </section>
+
+    <section class="chat">
+      <h2>💬 Chat System</h2>
+      <p>Login to access chat</p>
+    </section>
+
+    <section class="income">
+      <h2>💰 Income Summary</h2>
+      <p>Admin: ₹40 | You: ₹60</p>
+    </section>
+
+    <section class="kyc">
+      <h2>🧾 KYC Verification</h2>
+      <p>Status: Not Submitted</p>
+      <button onclick="submitKyc()">Submit KYC</button>
+    </section>
+
+    <section class="donate">
+      <h2>🎁 Support Creator</h2>
+      <button onclick="donate()">Donate ₹10</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 IndSee • Powered by you • 🇮🇳</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
